@@ -28,7 +28,9 @@ public class personal_info extends JFrame {
 	private JTextField textField;
 	public static String bn;
 	public static String userName,Name,phoneno;
-
+	public static String account_number;
+	System.out.println("Password: " + password );
+	email.setTo(customer.getEmailAddress());
 	/**
 	 * Launch the application.
 	 */
